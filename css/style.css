@@ -200,6 +200,7 @@ h6 {font-size:25px; line-height:30px}
 .text-light-gray {color:#d6d5d5}
 .text-very-light-gray {color:#ededed}
 .text-deep-pink {color:#ff214f}
+.text-buff {color:#feb395}
 
 /* dropcap */
 .first-letter {float: left; font-size: 50px; line-height: auto; margin: 0 20px 0 0; text-align: center; padding: 10px 0; font-weight: 600}
@@ -342,10 +343,13 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-medium-gray {background-color:#dbdbdb;}
 .bg-extra-light-gray {background-color:#e0e0e0}
 .bg-medium-light-gray {background-color:#ededed}
-.bg-medium-light-gradient {background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(255,255,255,1) 100%)}
+.bg-medium-light-gradient {background: linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 60%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%)}
+.bg-red-wine-gradient {background: linear-gradient(to bottom, rgba(255, 88, 88,0.9) 0%, rgba(248, 87, 166,0.9) 100%)}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
 .bg-deep-pink {background-color:#fd475d;}
+.bg-wine-red {background-color:#db3f5c;}
+.bg-deep-wine {background-color:#160109;}
 .bg-transparent-white { background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); }
 .bg-transparent-black { background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 ); }
 .bg-white-opacity { background-color: rgba(255, 255, 255, 0.85); }
@@ -367,10 +371,11 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 #contact img.device-mockup{
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 #contact .contact-text-wrapper{
-    background: #000;
+    background: #88244b;
     align-items: center;
     justify-content: center;
 }
@@ -2037,7 +2042,7 @@ footer .extra-small-icon li:last-child, footer .small-icon li:last-child, footer
 .large-icon li {margin: 0 10px}
 .extra-large-icon li {margin: 0 12px}
 .extra-small-icon a {font-size: 14px; width:30px; height:30px;line-height:29px;}
-.small-icon a {font-size: 20px; width: 40px; height:40px;line-height: 38px;}
+.small-icon a {font-size: 24px; width: 40px; height:40px;line-height: 38px;}
 .large-icon a {font-size: 24px; width: 60px; height: 60px;line-height: 61px;}
 .extra-large-icon a {font-size: 30px; width: 70px; height: 70px;line-height: 68px;}
 
@@ -2047,7 +2052,7 @@ footer .extra-small-icon li:last-child, footer .small-icon li:last-child, footer
 .social-icon-style-8 a:hover { color: #fd475d;}
 
 
-footer .small-icon li {margin: 0 8px;}
+footer .small-icon li {margin: 0 16px;}
 
 
 
@@ -2760,6 +2765,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 ====================================== */
 
 .slider-text-middle-main {display: table; height: 100%; width: 100% }
+.slider-text-middle-wrapper {display: table; height: 90%; width: 100% }
 .slider-text-middle {display: table-cell; vertical-align: middle; color: #fff;text-shadow: 2px 2px 24px #222;}
 .slider-typography {width: 100%; height: 100%; position: absolute; right: 0; left: 0; }
 .slider-text-bottom {display: table-cell; vertical-align: bottom;}
@@ -2996,16 +3002,16 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .search-box input[type="text"]::-o-placeholder {color: #939393; font-size: 10px; text-transform: uppercase; font-weight: 400; letter-spacing: 0.015em;}
 
 /* search box style 2 */
-.search-box2 .add-on .input-group-btn > .btn {border-left-width:0; left:0px; border-color:#4f4f4f; background-color: #4f4f4f; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none; margin-right: 0;margin-left: -1px; text-transform: uppercase; border-width: 1px; border-style: solid; padding: 5px 8px 5px 10px; height: 45px; width: 45px;}
+.search-box2 .add-on .input-group-btn > .btn {border-left-width:0; left:0px; border-color:#feb395; background-color: #feb395; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none; margin-right: 0;margin-left: -1px; text-transform: uppercase; border-width: 1px; border-style: solid; padding: 5px 8px 5px 10px; height: 45px; width: 45px;}
 .search-box2 .add-on .input-group-btn { width: 45px;}
 .search-box2 .add-on .input-group-btn > .btn:focus, .search-box2 .add-on .input-group-btn > .btn:hover {box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; border-color:#4f4f4f; background-color: #4f4f4f;}
 .search-box2 .add-on i{color: #fff; font-size: 17px}
-.search-box2 input[type="text"],.search-box2 input[type="search"]{border-color:#474747; background-color: transparent; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;font-size: 14px; font-weight: normal; color: #636363; height: 45px}
+.search-box2 input[type="text"],.search-box2 input[type="search"]{border-color:#feb395; background-color: transparent; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;font-size: 14px; font-weight: normal; color: #636363; height: 45px}
 .search-box2 .add-on input[type="text"]{padding: 10px 14px }
-.search-box2 input[type="text"]::-webkit-input-placeholder {color: #636363; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
-.search-box2 input[type="text"]::-moz-placeholder {color: #636363; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
-.search-box2 input[type="text"]::-ms-input-placeholder {color: #636363; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
-.search-box2 input[type="text"]::-o-placeholder {color: #636363; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
+.search-box2 input[type="text"]::-webkit-input-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
+.search-box2 input[type="text"]::-moz-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
+.search-box2 input[type="text"]::-ms-input-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
+.search-box2 input[type="text"]::-o-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
 
 /* search form */
 .search-cart-header { padding-top: 14px; float: right; letter-spacing: 1px}
