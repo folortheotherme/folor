@@ -3015,8 +3015,8 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .search-box2 .add-on .input-group-btn { width: 45px;}
 .search-box2 .add-on .input-group-btn > .btn:focus, .search-box2 .add-on .input-group-btn > .btn:hover {box-shadow:none; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; border-color:#feb395; background-color: #feb395;}
 .search-box2 .add-on i{color: #fff; font-size: 17px}
-.search-box2 input[type="text"],.search-box2 input[type="search"]{border-color:#feb395; background-color: transparent; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;font-size: 14px; font-weight: normal; color: #636363; height: 45px}
-.search-box2 .add-on input[type="text"]{padding: 10px 14px }
+.search-box2 input[type="text"],.search-box2 input[type="email"],.search-box2 input[type="search"]{border-color:#feb395; background-color: transparent; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;font-size: 14px; font-weight: normal; color: #636363; height: 45px}
+.search-box2 .add-on input[type="text"],.search-box2 .add-on input[type="email"]{padding: 10px 14px }
 .search-box2 input[type="text"]::-webkit-input-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
 .search-box2 input[type="text"]::-moz-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
 .search-box2 input[type="text"]::-ms-input-placeholder {color: #fff; font-size: 14px; font-weight: 400; letter-spacing: 0.015em; background-color: transparent;}
