@@ -368,6 +368,10 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
     background-position-y: 20%;
 }*/
 
+#promovideo .lazy, #read-blog-banner .lazy{
+    background-image: none;
+}
+
 #contact img.device-mockup{
     width: 100%;
     height: 100%;
@@ -421,9 +425,6 @@ img.blogthumbnail {
 }
 
 
-#promovideo .lazy, #read-blog-banner .lazy{
-    background-image: none;
-}
 
 
 
