@@ -368,7 +368,7 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
     background-position-y: 20%;
 }*/
 
-#promovideo .lazy, #read-blog-banner .lazy{
+#promovideo .lazy, #read-blog-banner .lazy, #blog-post-pics .lazy{
     background-image: none;
 }
 
