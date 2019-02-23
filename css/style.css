@@ -344,7 +344,8 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .bg-extra-light-gray {background-color:#e0e0e0}
 .bg-medium-light-gray {background-color:#ededed}
 .bg-medium-light-gradient {background: linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 60%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%)}
-.bg-red-wine-gradient {background: linear-gradient(to top, rgba(219, 63, 92,.4) 0%,rgba(219, 63, 92,.8) 60%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%)}
+.bg-red-wine-gradient {background: linear-gradient(to top, rgba(219, 63, 92,1) 0%,rgba(219, 63, 92,.8) 60%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%)}
+.bg-red-wine-black {background: linear-gradient(180deg, #1A1A1A 40%, #FD475D 100%);}
 .bg-light-gray {background-color:#f7f7f7}
 .bg-very-light-gray {background-color:#fafafa}
 .bg-deep-pink {background-color:#fd475d;}
